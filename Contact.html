@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title></title>
+		<link rel=stylesheet href=contactstyle.css>
+	</head>
+	<body>
+		<form>
+			<table>
+				<caption>Contact me Form</caption>
+				<tr>
+					<td colspan=2>Contact me</td>
+				</tr>
+				<tr>
+					<td>Your Name:</td>
+					<td>
+						<input name=name type=text placeholder="enter your name">
+					</td>
+				</tr>
+				<tr>
+					<td>Your opinion on the website:</td>
+					<td>
+						<input type=radio name=opinion id=v><label for=v>Very good</label><hr>
+						<input type=radio name=opinion id=f><label for=f>Fair</label><hr>
+						<input type=radio name=opinion id=g><label for=g>Good</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Gender: </td>
+					<td>
+						<input type=radio name=gender id=male><label for=male>Male</label><hr>
+						<input type=radio name=gender id=female><label for=female>Female</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Marital status:</td>
+					<td>
+						<select name="marital-status">
+							<option>Single</option>
+							<option>Married</option>
+							<option selected>Other</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>You know about my website from:</td>
+					<td>
+						<select multiple name="from">
+							<option>internet</option>
+							<option>friend</option>
+							<option>search engine</option>
+							<option>Other</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Mail: </td>
+					<td>
+						<input name=email type=email placeholder="enter your email">
+					</td>
+				</tr>
+				<tr>
+					<td>Subject: </td>
+					<td>
+						<input name=subject type=text placeholder="subject">
+					</td>
+				</tr>
+				<tr>
+					<td>Message: </td>
+					<td>
+						<textarea name=message></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>Date of birth</td>
+					<td>
+						<input name=date type=date>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type=submit formtarget=_blank formaction=thankyou.html>
+					</td>
+					<td>
+						<input type=reset>
+					</td>
+				</tr>
+
+			</table>
+		</form>
+	</body>
+</html>
